@@ -76,7 +76,7 @@
 	 */
 	.macro vector_base  label
 	.section .vectors, "ax"
-	.align 11, 0
+	.align 11
 	\label:
 	.endm
 
@@ -89,7 +89,7 @@
 	 */
 	.macro vector_entry  label
 	.section .vectors, "ax"
-	.align 7, 0
+	.align 7
 	\label:
 	.endm
 
